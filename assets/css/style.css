@@ -1,0 +1,53 @@
+/* Simple, clean default CSS for OLLYSPA v2.5 */
+:root{
+  --bg:#f7f8fa;
+  --card:#ffffff;
+  --text:#0f172a;
+  --muted:#64748b;
+  --accent:#2563eb;
+}
+body.theme-dark{
+  --bg:#0b1220;
+  --card:#071124;
+  --text:#e6eef8;
+  --muted:#94a3b8;
+  --accent:#60a5fa;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.5;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+
+}
+
+
+.topbar{
+  display:flex;
+  align-items:center;
+  gap:1rem;
+  padding:0.6rem 1rem;
+  background:linear-gradient(90deg, rgba(255,255,255,0.03), transparent);
+  border-bottom:1px solid rgba(0,0,0,0.05);
+}
+.brand{margin:0;font-size:1.1rem}
+.brand small{font-size:0.7rem;opacity:0.8;margin-left:6px}
+nav{margin-left:1rem}
+.nav-link{margin-right:0.6rem;text-decoration:none;color:var(--muted)}
+.nav-link.active{color:var(--accent);font-weight:600}
+.tools{margin-left:auto}
+button{cursor:pointer;padding:0.4rem 0.6rem;border-radius:8px;border:1px solid rgba(0,0,0,0.06);background:var(--card)}
+.app-container{flex:1;padding:1rem;max-width:900px;margin:1rem auto;width:100%}
+.page{padding:0.6rem}
+.card{background:var(--card);padding:1rem;border-radius:10px;box-shadow:0 6px 18px rgba(2,6,23,0.06);margin:0.8rem 0}
+input,textarea,select{padding:0.5rem;border-radius:8px;border:1px solid rgba(15,23,42,0.06);width:100%;margin-top:0.4rem}
+.footer{text-align:center;padding:1rem;font-size:0.9rem;color:var(--muted)}
+.notfound{padding:2rem;text-align:center}
+code{background:rgba(2,6,23,0.04);padding:0.1rem 0.3rem;border-radius:6px}
+
+
