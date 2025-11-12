@@ -1,0 +1,25 @@
+<section class="page">
+  <h2>{{ data.home.welcome }}</h2>
+  <p>{{ data.site.description }}</p>
+
+  <div class="card">
+    <h3>Features</h3>
+    <ul>
+      <li o-for="feature in data.home.features">{{ feature }}</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Play with data</h3>
+    <label>Change welcome message:
+      <input o-model="data.home.welcome" placeholder="Type a new welcome message" />
+    </label>
+    <p><em>{{ data.home.welcome }}</em></p>
+  </div>
+
+  <div class="card">
+    <h3>Conditional example</h3>
+    <button o-click="data.showSecret = !data.showSecret">Toggle secret</button>
+    <p o-if="data.showSecret">🎉 Secret: You found the hidden message!</p>
+  </div>
+</section>
