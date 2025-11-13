@@ -1,0 +1,24 @@
+{
+  "site": {
+    "title": "OLLYSPA Demo Site",
+    "description": "A tiny SPA made with vanilla JS \u2014 OLLYSPA v2.5"
+  },
+  "home": {
+    "welcome": "Welcome to OLLYSPA!",
+    "features": [
+      "Hash routing (#home, #about)",
+      "o-model, o-click, o-for, o-if",
+      "JSON data source",
+      "localStorage theme toggle"
+    ],
+    "cta": "Try the theme toggle button in the header."
+  },
+  "about": {
+    "title": "About OLLYSPA",
+    "content": "OLLYSPA is a tiny educational SPA framework to teach how front-end frameworks work using plain HTML, CSS and JavaScript."
+  },
+  "contact": {
+    "title": "About OLLYSPA",
+    "content": "OLLYSPA is a tiny educational SPA framework to teach how front-end frameworks work using plain HTML, CSS and JavaScript."
+  }
+}
