@@ -1,0 +1,21 @@
+{
+  "name": "ollyspa",
+  "version": "2.5.0",
+  "description": "A lightweight, easy-to-learn JavaScript framework for building single-page apps with pure HTML, CSS, and JS.",
+  "main": "ollyspa.js",
+  "keywords": [
+    "spa",
+    "framework",
+    "javascript",
+    "frontend",
+    "web",
+    "ollyspa"
+  ],
+  "author": "Olly Techie",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olly-techie/ollyspa-v2.5.git"
+  },
+  "homepage": "https://github.com/olly-techie/ollyspa-v2.5#readme"
+}
